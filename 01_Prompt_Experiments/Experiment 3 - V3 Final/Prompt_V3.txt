@@ -1,0 +1,96 @@
+PROMPT V3 — Concise, Evidence-Driven & Priority-Aware Review Analysis
+
+You are an expert product review analyst. Analyze the customer reviews to produce an accurate, evidence-based, concise analysis that helps a product team understand customer satisfaction and decide which product issues should be addressed first.
+
+Follow these instructions:
+
+1. Overall Sentiment
+Determine the overall sentiment as Positive, Negative, or Mixed. Explain the conclusion briefly using the reviews.
+
+2. Aspect Identification
+Identify distinct product aspects discussed in the reviews. Merge closely related mentions under the same aspect. Do not introduce unsupported aspects.
+
+3. Aspect-Level Analysis
+For every aspect, report:
+- Overall aspect sentiment: Positive, Negative, Neutral, or Mixed.
+- Total number of distinct reviews mentioning the aspect.
+- Number of reviews expressing positive feedback.
+- Number of reviews expressing negative feedback.
+- One or two short, exact supporting quotations.
+
+Count each review only once per aspect and sentiment category. If a review expresses both positive and negative opinions about the same aspect, it may count in both sentiment categories but only once in the total reviews mentioning that aspect.
+
+4. Recurring Issues
+Identify aspects receiving negative feedback in multiple reviews. Clearly distinguish recurring negative concerns from concerns mentioned in only one review. Do not repeat the entire aspect analysis here; provide only a concise recurrence summary.
+
+5. Product Strengths
+Identify the strongest positively received aspects. Rank them based on the number of reviews expressing positive feedback. Avoid repeating all supporting quotations or explanations already provided in the aspect-level analysis.
+
+6. Improvement Prioritization
+Generate practical product improvement suggestions based only on negative customer feedback.
+
+Apply these priority rules consistently:
+- High Priority: Negative feedback about the aspect appears in 2 or more distinct reviews.
+- Medium Priority: Negative feedback about the aspect appears in exactly 1 distinct review.
+- Do not assign Low Priority to an aspect unless an improvement is genuinely supported by the reviews.
+- Do not increase priority based on assumptions about severity, technical difficulty, cost, or business impact that are not stated in the reviews.
+- If multiple aspects have the same priority, order them by the number of negative reviews.
+
+7. Avoid Redundancy
+Do not repeat the same analysis, evidence, or explanation in multiple sections. Keep the result concise while preserving all important findings.
+
+OUTPUT FORMAT
+
+Return only valid JSON without Markdown code fences.
+
+Use this structure:
+
+{
+  "overall_sentiment": {
+    "classification": "",
+    "explanation": ""
+  },
+  "aspect_analysis": [
+    {
+      "aspect": "",
+      "sentiment": "",
+      "total_reviews_mentioning": 0,
+      "positive_reviews": 0,
+      "negative_reviews": 0,
+      "supporting_quotes": []
+    }
+  ],
+  "recurring_negative_concerns": {
+    "multiple_review_issues": [],
+    "single_review_issues": []
+  },
+  "product_strengths": [],
+  "prioritized_improvements": [
+    {
+      "priority": "",
+      "aspect": "",
+      "negative_review_count": 0,
+      "reason": "",
+      suggestion": ""
+    }
+  ]
+}
+
+RULES
+
+- Use only information explicitly supported by the reviews.
+- Do not invent review counts, quotations, product features, or customer experiences.
+- Supporting quotes must be copied exactly from the original reviews.
+- Review counts must be based on distinct reviews, not repeated mentions.
+- Sentiment must reflect the actual opinions expressed.
+- Mixed sentiment must be used when both positive and negative opinions exist for the same aspect.
+- Clearly distinguish an aspect being mentioned from an aspect receiving negative feedback.
+- Improvement priorities must follow the defined rules rather than subjective assumptions.
+- If the reviews do not provide sufficient evidence for a conclusion, state this clearly.
+
+PRODUCT REVIEWS
+
+1. "The sound quality is excellent, but the battery barely lasts four hours."
+2. "Great sound and comfortable to wear. The battery life could be better."
+3. "The headphones look premium, but they are too expensive."
+4. "Sound is clear, though the ear cups become uncomfortable after long use."

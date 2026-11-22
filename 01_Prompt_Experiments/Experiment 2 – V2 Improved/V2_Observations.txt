@@ -1,0 +1,61 @@
+EXPERIMENT E2 — V2 IMPROVED PROMPT EVALUATION
+
+Project: ReviewSense AI
+Experiment: E2 – Improved Prompt
+Prompt Version: V2
+Platform: ChatGPT
+Model: Not verified from interface
+Dataset: 4 headphone reviews
+Settings: Default chat settings
+
+1. OBJECTIVE
+
+Evaluate whether V2 improves the baseline analysis by adding review frequency, recurring theme identification, evidence-based analysis, prioritization, and structured output.
+
+2. OBSERVED STRENGTHS
+
+- Correctly identified overall sentiment as Mixed.
+- Identified five product aspects and classified their sentiments.
+- Counted distinct reviews mentioning each aspect.
+- Separated recurring themes from single-review themes.
+- Provided exact supporting quotations.
+- Separated product strengths and customer pain points.
+- Generated prioritized improvement suggestions.
+- Returned structured JSON output.
+
+3. OBSERVED WEAKNESSES
+
+- Findings were repeated across multiple sections, including aspect analysis, recurring themes, strengths, and pain points.
+- Comfort received High priority despite negative feedback appearing in only one review.
+- Priority levels were provided without clearly defined prioritization criteria.
+- The output could be more concise by reducing redundant information across sections.
+
+4. EVALUATION SUMMARY
+
+Overall sentiment identification: Pass
+Aspect identification: Pass
+Aspect sentiment classification: Pass
+Review frequency counting: Pass
+Recurring theme identification: Pass
+Single-review theme identification: Pass
+Supporting quotations: Pass
+Product strengths and pain points: Pass
+Improvement suggestions: Pass
+Structured JSON output: Pass
+Conciseness and redundancy control: Needs improvement
+Priority consistency: Needs improvement
+
+5. CONCLUSION
+
+V2 improved upon V1 by introducing quantitative theme frequency, distinguishing recurring themes from single-review observations, and providing structured JSON output with prioritized improvement suggestions.
+
+However, some findings were repeated across sections and improvement priorities were not consistently supported by clearly defined criteria.
+
+V3 should focus on reducing redundant output, improving prioritization consistency, and making the analysis more concise while retaining the strengths introduced in V2.
+
+6. EXPERIMENT STATUS
+
+Status: Completed
+Actual output saved: Yes
+Evaluation recorded: Yes
+Next step: Develop V3 – Further Refined Prompt

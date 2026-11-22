@@ -1,0 +1,128 @@
+[
+  {
+    "id": "3bf57dc4",
+    "title": "Pasted Text (4 reviews)",
+    "created_at": "2026-11-22T03:18:47.886158",
+    "display_time": "Nov 22, 2026 • 03:18 AM",
+    "review_count": 4,
+    "overall_sentiment": "Mixed",
+    "model_name": "openai/gpt-oss-120b",
+    "is_demo": false,
+    "reviews": [
+      "The sound quality is excellent, but the battery barely lasts four hours.",
+      "Great sound and comfortable to wear. The battery life could be better.",
+      "The headphones look premium, but they are too expensive.",
+      "Sound is clear, though the ear cups become uncomfortable after long use."
+    ],
+    "result": {
+      "overall_sentiment": {
+        "classification": "Mixed",
+        "explanation": "Reviews contain both praise (sound, comfort, design) and criticism (battery life, price, comfort over time)."
+      },
+      "aspect_analysis": [
+        {
+          "aspect": "Sound Quality",
+          "sentiment": "Positive",
+          "total_reviews_mentioning": 3,
+          "positive_reviews": 3,
+          "negative_reviews": 0,
+          "supporting_quotes": [
+            "sound quality is excellent",
+            "Sound is clear"
+          ]
+        },
+        {
+          "aspect": "Battery Life",
+          "sentiment": "Negative",
+          "total_reviews_mentioning": 2,
+          "positive_reviews": 0,
+          "negative_reviews": 2,
+          "supporting_quotes": [
+            "battery barely lasts four hours",
+            "battery life could be better"
+          ]
+        },
+        {
+          "aspect": "Comfort",
+          "sentiment": "Mixed",
+          "total_reviews_mentioning": 2,
+          "positive_reviews": 1,
+          "negative_reviews": 1,
+          "supporting_quotes": [
+            "comfortable to wear",
+            "ear cups become uncomfortable after long use"
+          ]
+        },
+        {
+          "aspect": "Price",
+          "sentiment": "Negative",
+          "total_reviews_mentioning": 1,
+          "positive_reviews": 0,
+          "negative_reviews": 1,
+          "supporting_quotes": [
+            "too expensive"
+          ]
+        },
+        {
+          "aspect": "Design/Aesthetics",
+          "sentiment": "Positive",
+          "total_reviews_mentioning": 1,
+          "positive_reviews": 1,
+          "negative_reviews": 0,
+          "supporting_quotes": [
+            "look premium"
+          ]
+        }
+      ],
+      "recurring_negative_concerns": {
+        "multiple_review_issues": [
+          "Battery Life"
+        ],
+        "single_review_issues": [
+          "Comfort",
+          "Price"
+        ]
+      },
+      "product_strengths": [
+        {
+          "aspect": "Sound Quality",
+          "positive_review_count": "—",
+          "reason": "Identified as a key product strength in the reviews."
+        },
+        {
+          "aspect": "Design/Aesthetics",
+          "positive_review_count": "—",
+          "reason": "Identified as a key product strength in the reviews."
+        },
+        {
+          "aspect": "Comfort",
+          "positive_review_count": "—",
+          "reason": "Identified as a key product strength in the reviews."
+        }
+      ],
+      "prioritized_improvements": [
+        {
+          "priority": "High",
+          "aspect": "Battery Life",
+          "negative_review_count": 2,
+          "reason": "Multiple reviewers say the battery lasts only a few hours",
+          "suggestion": "Increase battery capacity or improve power efficiency"
+        },
+        {
+          "priority": "Medium",
+          "aspect": "Comfort",
+          "negative_review_count": 1,
+          "reason": "Ear cups become uncomfortable after long use",
+          "suggestion": "Redesign ear cushions with softer material"
+        },
+        {
+          "priority": "Medium",
+          "aspect": "Price",
+          "negative_review_count": 1,
+          "reason": "Product is perceived as too expensive",
+          "suggestion": "Reevaluate pricing or add more value to justify cost"
+        }
+      ]
+    }
+  }
+]

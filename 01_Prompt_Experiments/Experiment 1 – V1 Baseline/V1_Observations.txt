@@ -1,0 +1,64 @@
+EXPERIMENT E1 — BASELINE PROMPT V1
+
+Project: ReviewSense AI
+Experiment: E1 – Baseline
+Prompt Version: V1
+Platform: Google AI Studio
+Model: Gemini (exact model name to be verified)
+Dataset: 4 headphone reviews
+Settings: Default
+
+--------------------------------------------------
+1. OBJECTIVE
+--------------------------------------------------
+
+Evaluate the original M1 baseline prompt on product reviews and establish a benchmark for subsequent prompt versions.
+
+--------------------------------------------------
+2. OBSERVED STRENGTHS
+--------------------------------------------------
+
+- Correctly identified overall sentiment as Mixed.
+- Identified five product aspects: sound quality, battery life, comfort, design/appearance, and price.
+- Correctly classified most aspect sentiments.
+- Provided supporting quotations for all identified themes.
+- Generated relevant product improvement suggestions.
+- Avoided making unsupported recommendations about features not mentioned in the reviews.
+
+--------------------------------------------------
+3. OBSERVED WEAKNESSES
+--------------------------------------------------
+
+- Comfort was classified as Neutral despite conflicting positive and negative feedback.
+- Theme frequency was not quantified.
+- Recurring customer concerns were not prioritized over themes mentioned only once.
+- Improvement suggestions could be more clearly linked to the frequency and severity of customer concerns.
+
+--------------------------------------------------
+4. EVALUATION SUMMARY
+--------------------------------------------------
+
+Overall Sentiment: Pass
+Theme Identification: Pass
+Aspect Sentiment Classification: Partial
+Supporting Evidence: Pass
+Improvement Suggestions: Pass
+Output Structure: Pass
+Evidence Grounding: Pass
+
+--------------------------------------------------
+5. CONCLUSION
+--------------------------------------------------
+
+The baseline prompt successfully performs the fundamental analysis of product reviews. However, it can be improved in sentiment precision, theme frequency analysis, prioritization of recurring concerns, and the connection between customer feedback and actionable recommendations.
+
+V2 will focus on improving these areas while retaining the useful structure and evidence-grounding of V1.
+
+--------------------------------------------------
+6. STATUS
+--------------------------------------------------
+
+Experiment completed.
+Output saved.
+Evaluation recorded.
+Next step: Develop and test Prompt V2.

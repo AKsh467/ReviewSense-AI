@@ -1,0 +1,6 @@
+user_id,Feedback,sentiment_hint
+U101,"Audio clarity is unmatched and noise isolation works like a charm.",Positive
+U102,"",Neutral
+U103,"Microphone quality is muffled during Zoom calls. Bluetooth cuts out when walking across the room.",Negative
+U104,"   ",Unknown
+U105,"Charging case hinge is loose and feels fragile.",Negative

@@ -1,0 +1,15 @@
+Analyze the following product reviews. Identify the overall sentiment, list the main themes mentioned by customers, classify the sentiment for each theme as positive, negative, or neutral, and suggest ways to improve the product.
+
+For each theme, provide a short supporting quote from the reviews. Organize the results into:
+1. Overall Sentiment
+2. Key Themes and Their Sentiments
+3. Supporting Review Quotes
+4. Product Improvement Suggestions
+
+Use only the information in the reviews. Do not invent facts or quotations. If there is insufficient evidence, mention it.
+
+Product reviews:
+1. "The sound quality is excellent, but the battery barely lasts four hours."
+2. "Great sound and comfortable to wear. The battery life could be better."
+3. "The headphones look premium, but they are too expensive."
+4. "Sound is clear, though the ear cups become uncomfortable after long use."

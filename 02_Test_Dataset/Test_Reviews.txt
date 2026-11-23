@@ -1,0 +1,82 @@
+ReviewSense AI – Test Dataset
+Purpose: Testing sentiment analysis, aspect identification, recurring concerns, product strengths, and improvement suggestions.
+
+========================================
+TEST CASE 1 – POSITIVE REVIEWS
+========================================
+Product: Wireless Headphones
+
+Review 1:
+The sound quality is excellent and the bass is really impressive. I love using these headphones while listening to music.
+
+Review 2:
+Very comfortable to wear for long hours. The ear cushions feel soft and the overall design is great.
+
+Review 3:
+Battery life is amazing and the headphones connect quickly to my phone. Very satisfied with the purchase.
+
+
+========================================
+TEST CASE 2 – NEGATIVE REVIEWS
+========================================
+Product: Wireless Headphones
+
+Review 1:
+The battery drains too quickly and I have to charge the headphones almost every day.
+
+Review 2:
+The sound becomes distorted at higher volumes. I expected much better audio quality.
+
+Review 3:
+The headphones feel uncomfortable after wearing them for an hour. The ear cushions are too hard.
+
+
+========================================
+TEST CASE 3 – MIXED OPINION REVIEWS
+========================================
+Product: Smartphone
+
+Review 1:
+The camera takes excellent photos and the display is beautiful, but the battery barely lasts a full day.
+
+Review 2:
+Performance is smooth and apps load quickly. However, the phone gets noticeably hot while gaming.
+
+Review 3:
+The design is premium and the phone feels lightweight, although the speakers could be louder.
+
+
+========================================
+TEST CASE 4 – RECURRING CONCERNS
+========================================
+Product: Laptop
+
+Review 1:
+The laptop performs well for work, but the battery drains very quickly.
+
+Review 2:
+Performance is smooth and the keyboard is comfortable. Battery life is disappointing during travel.
+
+Review 3:
+The laptop is lightweight and easy to carry, but I frequently need to plug it in because the battery doesn't last long.
+
+Review 4:
+Good build quality and fast performance. The battery backup is much shorter than advertised.
+
+
+========================================
+TEST CASE 5 – DIFFERENT PRODUCT ASPECTS
+========================================
+Product: Running Shoes
+
+Review 1:
+The shoes are lightweight and comfortable, with excellent cushioning for running.
+
+Review 2:
+The design looks stylish, but the sole started wearing out after a few weeks.
+
+Review 3:
+The grip is good on dry surfaces, although it becomes slippery on wet roads.
+
+Review 4:
+The shoes fit perfectly and are breathable, but the material gets dirty easily and is difficult to clean.

@@ -1,0 +1,140 @@
+
+{
+  "overall_sentiment": {
+    "classification": "Mixed",
+    "explanation": "Customers appreciate the excellent sound quality, comfortable fit during normal use, and premium appearance. However, concerns about battery life, long-term comfort, and pricing prevent an overall positive assessment."
+  },
+  "aspect_wise_sentiment_analysis": [
+    {
+      "aspect": "Sound Quality",
+      "sentiment": "Positive",
+      "reviews_mentioning_aspect": 3,
+      "supporting_quotes": [
+        "The sound quality is excellent",
+        "Great sound",
+        "Sound is clear"
+      ]
+    },
+    {
+      "aspect": "Battery Life",
+      "sentiment": "Negative",
+      "reviews_mentioning_aspect": 2,
+      "supporting_quotes": [
+        "the battery barely lasts four hours",
+        "The battery life could be better."
+      ]
+    },
+    {
+      "aspect": "Comfort",
+      "sentiment": "Mixed",
+      "reviews_mentioning_aspect": 2,
+      "supporting_quotes": [
+        "comfortable to wear",
+        "the ear cups become uncomfortable after long use."
+      ]
+    },
+    {
+      "aspect": "Design & Appearance",
+      "sentiment": "Positive",
+      "reviews_mentioning_aspect": 1,
+      "supporting_quotes": [
+        "The headphones look premium"
+      ]
+    },
+    {
+      "aspect": "Price & Affordability",
+      "sentiment": "Negative",
+      "reviews_mentioning_aspect": 1,
+      "supporting_quotes": [
+        "they are too expensive."
+      ]
+    }
+  ],
+  "recurring_themes": [
+    {
+      "theme": "Sound Quality",
+      "frequency": 3,
+      "sentiment": "Positive",
+      "summary": "Customers consistently praise the headphones' sound performance and clarity."
+    },
+    {
+      "theme": "Battery Life",
+      "frequency": 2,
+      "sentiment": "Negative",
+      "summary": "Customers express dissatisfaction with battery performance and want longer usage time."
+    },
+    {
+      "theme": "Comfort",
+      "frequency": 2,
+      "sentiment": "Mixed",
+      "summary": "Comfort is satisfactory initially, but extended wear causes discomfort for some users."
+    }
+  ],
+  "single_review_themes": [
+    {
+      "theme": "Design & Appearance",
+      "frequency": 1,
+      "sentiment": "Positive",
+      "summary": "Premium appearance is appreciated."
+    },
+    {
+      "theme": "Price & Affordability",
+      "frequency": 1,
+      "sentiment": "Negative",
+      "summary": "The product is considered too expensive."
+    }
+  ],
+  "product_strengths": [
+    {
+      "aspect": "Sound Quality",
+      "reviews_count": 3,
+      "summary": "Excellent sound quality and clarity are consistently praised."
+    },
+    {
+      "aspect": "Design & Appearance",
+      "reviews_count": 1,
+      "summary": "The premium look is appreciated."
+    }
+  ],
+  "customer_pain_points": [
+    {
+      "aspect": "Battery Life",
+      "reviews_count": 2,
+      "summary": "Battery performance is insufficient, with one reviewer reporting barely four hours of usage."
+    },
+    {
+      "aspect": "Comfort",
+      "reviews_count": 1,
+      "summary": "Ear cups become uncomfortable during extended use."
+    },
+    {
+      "aspect": "Price & Affordability",
+      "reviews_count": 1,
+      "summary": "The headphones are perceived as too expensive."
+    }
+  ],
+  "prioritized_improvement_suggestions": [
+    {
+      "priority": "High",
+      "aspect": "Battery Life",
+      "evidence_reason": "2 reviews mention insufficient battery performance.",
+      "suggested_improvement": "Improve battery capacity and power efficiency to extend listening time between charges."
+    },
+    {
+      "priority": "High",
+      "aspect": "Comfort",
+      "evidence_reason": "Ear cups become uncomfortable after prolonged use.",
+      "suggested_improvement": "Redesign ear cushions using softer materials, improved padding, and better pressure distribution."
+    },
+    {
+      "priority": "Medium",
+      "aspect": "Price & Affordability",
+      "evidence_reason": "1 review considers the product too expensive.",
+      "suggested_improvement": "Reassess pricing relative to perceived value or introduce a more affordable variant."
+    }
+  ],
+  "notes": [
+    "Review counts represent distinct reviews mentioning each aspect.",
+    "A review is counted only once per aspect, regardless of repeated mentions."
+  ]
+}

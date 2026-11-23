@@ -1,5 +1,58 @@
 [
   {
+    "id": "38a93edd",
+    "title": "Pasted Text (5 reviews)",
+    "created_at": "2026-11-22T16:17:12.081533",
+    "display_time": "Nov 22, 2026 • 04:17 PM",
+    "review_count": 5,
+    "overall_sentiment": "Mixed",
+    "model_name": "openai/gpt-oss-120b",
+    "is_demo": false,
+    "reviews": [
+      "These shoes are extremely comfortable and lightweight, with excellent cushioning for running.",
+      "The design looks great and the shoes fit perfectly, but the sole started wearing out after just two months.",
+      "The shoes are comfortable and have good grip on dry surfaces, but become slippery on wet roads.",
+      "The shoes look premium and are breathable, but I think they are overpriced for the quality of materials used.",
+      "Great fit, stylish design, and excellent cushioning for daily walking, although they get dirty easily and are difficult to clean."
+    ],
+    "result": {
+      "overall_sentiment": {
+        "classification": "Mixed",
+        "explanation": "Several reviews contain both praise (comfort, design, fit, cushioning) and criticism (sole durability, wet‑road grip, price, cleaning), resulting in a mixed overall sentiment."
+      },
+      "aspect_analysis": [
+        {
+          "aspect": "Comfort",
+          "sentiment": "Positive",
+          "total_reviews_mentioning": 2,
+          "positive_reviews": 2,
+          "negative_reviews": 0,
+          "supporting_quotes": [
+            "These shoes are extremely comfortable and lightweight, with excellent cushioning for running.",
+            "The shoes are comfortable and have good grip on dry surfaces, but become slippery on wet roads."
+          ]
+        },
+        {
+          "aspect": "Fit",
+          "sentiment": "Positive",
+          "total_reviews_mentioning": 2,
+          "positive_reviews": 2,
+          "negative_reviews": 0,
+          "supporting_quotes": [
+            "The design looks great and the shoes fit perfectly, but the sole started wearing out after just two months.",
+            "Great fit, stylish design, and excellent cushioning for daily walking, although they get dirty easily and are difficult to clean."
+          ]
+        }
+      ],
+      "recurring_negative_concerns": {
+        "multiple_review_issues": [],
+        "single_review_issues": []
+      },
+      "product_strengths": [],
+      "prioritized_improvements": []
+    }
+  },
+  {
     "id": "3bf57dc4",
     "title": "Pasted Text (4 reviews)",
     "created_at": "2026-11-22T03:18:47.886158",

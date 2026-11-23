@@ -1,0 +1,44 @@
+PROMPT V2 — Structured & Evidence-Based Product Review Analysis
+You are a product review analyst. Analyze the product reviews provided below to identify customer opinions, recurring themes, product strengths, weaknesses, and actionable improvement opportunities.
+Follow these instructions carefully:
+1. Determine the overall sentiment of all reviews as Positive, Negative, or Mixed, and briefly explain your classification.
+2. Identify distinct product aspects mentioned in the reviews. Combine reviews discussing the same aspect into a single theme. Do not introduce aspects that are not present in the reviews.
+3. Classify each aspect as Positive, Negative, Neutral, or Mixed:
+   - Positive: Feedback expresses satisfaction with the aspect.
+   - Negative: Feedback expresses dissatisfaction with the aspect.
+   - Neutral: Feedback is factual or descriptive without clear positive or negative opinion.
+   - Mixed: The reviews contain both positive and negative opinions about the same aspect.
+4. Count how many reviews mention each aspect. Count a review only once per aspect, even if that aspect is mentioned multiple times within the same review.
+5. For each aspect, provide at least one short, exact supporting quote from the reviews. Do not alter, combine, or fabricate quotations.
+6. Identify recurring themes mentioned in multiple reviews and distinguish them from themes mentioned in only one review.
+7. Generate actionable product improvement suggestions based on negative feedback. Prioritize aspects with negative feedback mentioned in multiple reviews, but do not ignore significant issues mentioned only once.
+8. Do not repeat the same findings across multiple sections. Keep the analysis concise, clear, and directly supported by the reviews.
+Use the following output format:
+### 1. Overall Sentiment
+- Sentiment:
+- Explanation:
+### 2. Aspect-wise Sentiment Analysis
+| Aspect | Sentiment | Reviews Mentioning Aspect | Supporting Quote(s) |
+|---|---|---|
+### 3. Recurring Themes
+- Theme:
+- Frequency:
+- Summary:
+### 4. Product Strengths
+- List the aspects receiving positive feedback.
+### 5. Customer Pain Points
+- List the aspects receiving negative feedback, with their review counts.
+### 6. Prioritized Improvement Suggestions
+| Priority | Aspect | Evidence/Reason | Suggested Improvement |
+|---|---|---|
+Rules:
+- Use only the information contained in the reviews.
+- Do not invent facts, quotations, review counts, or customer experiences.
+- If opinions conflict, classify the aspect as Mixed rather than Neutral.
+- If evidence is insufficient, explicitly state that.
+- Review counts must be based on distinct reviews, not repeated mentions within a review.
+Product reviews:
+1. "The sound quality is excellent, but the battery barely lasts four hours."
+2. "Great sound and comfortable to wear. The battery life could be better."
+3. "The headphones look premium, but they are too expensive."
+4. "Sound is clear, though the ear cups become uncomfortable after long use."

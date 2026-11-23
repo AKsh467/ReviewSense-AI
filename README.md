@@ -51,12 +51,23 @@ The final prototype is designed to use a single analysis prompt rather than a mu
 ## Project Structure
 
 ```text
-ReviewSense AI/
+## Project Structure
+
+ReviewSense-AI/
 │
 ├── 01_Prompt_Experiments/
-│   ├── Experiment 1 – V1 Baseline/
-│   ├── Experiment 2 – V2 Improved/
-│   └── Experiment 3 – V3 Final/
+│
+├── 02_Test_Dataset/
+│   └── Test_Reviews.txt
+│
+├── 03_Evaluation/
+│   └── Prompt_Comparison.md
+│
+├── 04_M2_Report/
+│   └── M2_PE-B37-41_REVIEWSENSE AI.pdf
+│
+├── 05_Supporting_Document/
+│   └── ReviewSense_AI_BMC.pdf
 │
 ├── 06_Prototype/
 │   ├── app.py
@@ -64,14 +75,11 @@ ReviewSense AI/
 │   ├── llm_analyzer.py
 │   ├── history_manager.py
 │   ├── ui_components.py
-│   ├── requirements.txt
-│   ├── README.md
-│   ├── .env.example
-│   ├── data/
-│   ├── sample_data/
-│   └── .streamlit/
+│   └── data/
 │
+├── .gitignore
 └── README.md
+
 ```
 
 ---
